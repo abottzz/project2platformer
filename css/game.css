@@ -1,0 +1,32 @@
+.background    {background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+                .background td { padding: 0;          }
+
+                 .lava          { background: linear-gradient(to bottom, #ff0000 0%, #ff9933 100%) }
+                 .wall          { background: white;   }
+
+                 .actor  { position: absolute;  }
+                 .coin   { background: rgb(241, 229, 89); }
+                 .player {background-image: url(images/citro.png);
+                          background-size: 16px 30px}
+                 .win    {   background: linear-gradient(to bottom, #66ff99 -29%, #cc66ff 53%);
+                          }
+                 .power {background: rgb(0, 255, 0);}
+                 .slow  {background: linear-gradient(to bottom, #33ccff 0%, #3399ff 100%);}
+                 .hazard {background: red}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
